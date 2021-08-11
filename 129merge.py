@@ -13,7 +13,7 @@ with open(file1,'r', encoding='utf8') as f:
     for i in reader:
         df1.append(i)
 
-with open(file1,'r', encoding='utf8') as g:
+with open(file2,'r', encoding='utf8') as g:
     reader = csv.reader(g)
 
     for a in reader:
